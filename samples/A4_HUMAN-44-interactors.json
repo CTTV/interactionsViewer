@@ -1,0 +1,7378 @@
+{
+  "head" : {
+    "vars" : [ "source", "target", "exp", "source_intact", "target_intact" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O00213"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-81694"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297353"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O00213"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-81694"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P00533"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-641062"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O00213"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-81694"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04626"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1046087"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O00213"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-81694"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q07954"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O43736"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2431769"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172134"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O43736"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2431769"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "A4D127"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-348613"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "O75955"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-603643"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q14254"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-351726"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O14974"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "32"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05412"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1104674"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10909"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1170906"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P15336"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748062"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "8"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17275"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2682803"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17535"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-765623"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17544"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-492498"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P18848"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1057697"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P42224"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2687350"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P52736"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1809712"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P56671"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-742413"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01100"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BT78"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172134"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "A4D127"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2530274"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07996"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2834630"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17813"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1027557"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P36897"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-296151"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P37173"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2852679"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q03167"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2349801"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q12841"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2564275"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q14689"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-6620843"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P01137"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q90998"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-784112"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P02647"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O95477"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1220767"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P02647"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P00738"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P02647"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "14"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P02647"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-348571"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P02647"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P02671"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2548702"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P02647"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96DZ9"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "17"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04156"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-768613"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04925"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-7430632"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10279"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366182"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10636"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-7670302"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P23907"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1043398"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P29372"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740785"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P49639"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2568609"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BSJ6"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-751877"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P04156"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9H4B4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-81694"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O00213"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2313231"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O75509"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-603643"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O75955"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P01100"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779636"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P01137"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-701692"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P02647"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1246249"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-821758"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P03897"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04156"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "104"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2431589"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "104"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3894543"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "104"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "104"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-821758"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05412"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1038810"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2431589"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07174"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475646"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07196"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2115097"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07339"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1387782"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P08138"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366182"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10636"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9005200"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P15253"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1172917"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P21359"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1049597"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P27797"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P29353"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P30101"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-457650"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2431589"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P31696"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2566375"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-821758"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P39060"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P49768"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P61457"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-779581"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P61812"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-368690"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q02410"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-821758"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8294101"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q306T3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2010752"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8BGY9"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9005068"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3894543"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8K3H7"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79277"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q92870"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79964"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q99714"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-725153"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05067"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77613"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9NP59"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-288687"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P45983-1"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10087113"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13469-2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-625002"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O43889"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-6907210"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O95644"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852851"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "32"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P01100"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05412"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1105035"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07197"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-350864"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07437"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-296047"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07900"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10890294"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P0C746"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-351896"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P11142"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-913209"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P14921"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1170906"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "14"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P15336"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-744510"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P15407"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3893419"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P15408"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-765623"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17544"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852794"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P18846"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-712767"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P18847"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-492498"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P18848"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-286483"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P45983"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-347545"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P48634"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-349938"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P52292"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-713543"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P53779"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1809712"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P56671"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-389668"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q00987"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1040141"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15796"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-749503"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q16520"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302552"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q71U36"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1806001"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8IWZ6"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-321822"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8WQG9"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2624951"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q99966"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1769146"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q99986"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10889526"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9DGW5"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-349832"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9HD26"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10312707"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9NR55"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-717245"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9NRL3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-726739"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P05412"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9UPY8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1028250"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07174"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1038810"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P01138"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-355744"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07174"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1038810"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q12933"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8089575"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07174"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1038810"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q3MKQ2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3650647"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07174"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1038810"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BUZ4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-359276"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07174"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1038810"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9Y4K3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9675698"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07196"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475646"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P14079"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1055572"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07196"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475646"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17661"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-710997"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07196"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475646"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P54274"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475631"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07196"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475646"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13614"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2557469"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P07196"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475646"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q6NYC8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1028250"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P08138"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1387782"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P01138"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1801080"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P08138"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1387782"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P25233"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1031024"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P08138"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1387782"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P33681"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-5529102"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P08138"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1387782"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9CPR8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-746180"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P08138"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1387782"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9Y467"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9209835"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P10636"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366182"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P02649"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-977302"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P10636"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366182"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04156"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3440986"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P10636"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366182"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P43004"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-357085"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P10636"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366182"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9UNE7"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78814"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P15253"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9005200"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P12023"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1172957"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P21359"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1172917"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P34741"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-712001"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P27797"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1049597"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O95166"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-352682"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P27797"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1049597"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04792"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-747259"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P27797"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1049597"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q03518"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-4309277"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P03372-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297353"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "26"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P00533"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2548993"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P03495"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-641062"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04626"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-475899"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P06213"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1039152"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P08581"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-608057"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "14"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10275"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1379503"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "8"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10721"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-720706"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P21860"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79464"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P27986"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-886"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P46108"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-401755"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "23"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P62993"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2266035"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q05209"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297487"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q07889"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-517684"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13480"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-80371"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15303"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-646604"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P29353"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-78835"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q62120"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1104674"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10909"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-916742"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P18418"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-747259"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q03518"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2211957"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13162"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-448878"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13586"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2806988"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q86YB8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2564539"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P30101"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-979862"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96HE7"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-6662997"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P31696"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-457650"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P02469"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-346967"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P39060"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "12"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2566375"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P19338"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-727668"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P39060"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2566375"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P21980"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P39060"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2566375"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P46089"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3909653"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-702484"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P14923"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-491549"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P35222"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-998422"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P49755"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-357285"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P50502"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-81669"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P98084"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-397872"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q02248"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-368690"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q02410"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-295634"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q16543"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-998440"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q92542"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-712452"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P49768"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BQ95"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P51693"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-707773"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P51693"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P17028"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P51693"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P51693"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P51693"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P51693"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740459"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P51116"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P61457"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10224676"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q07654"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-739832"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8TBB1"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-741158"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96HA8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-739467"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9H8Y8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-396258"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "P61457"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740475"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9UKV3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297277"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q02410"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-368690"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P49768"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1043164"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O75618"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-852823"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05412"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-913209"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P14921"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P51693"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8830305"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P31424-2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9523517"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "25"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P85298-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10203843"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15233-2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-3891843"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q4VCS5-2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10173507"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q6UY14-3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172004"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8IX15-3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10182121"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8NF64-2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10203615"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q99708-2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172134"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "A4D127"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10173536"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "D3DR37"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10176602"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "D3DTR7"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-710464"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O00267"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740434"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O15156"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-723574"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O15209"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-983612"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O15409"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10176632"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O43829"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-7875264"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O75553"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1047263"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O76015"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366083"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "12"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04637"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-533224"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P15884"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-298860"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P31938"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740135"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P35520"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-347978"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P37198"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-354900"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "8"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P41279"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-636374"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P46531"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-358664"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "10"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P51617"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172290"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P60409"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172052"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P60411"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2967304"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "12"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P78563"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-618309"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q08379"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-355744"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q12933"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-359224"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13077"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2865100"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13342"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-745305"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13422"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-976402"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13950"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-357849"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15025"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1646959"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15131"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-350527"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15233"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-948001"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15323"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-742327"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15654"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8641936"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15742"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8795045"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q3UVX5"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10179526"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q52MB2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-742948"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q5JR59"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-397724"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "12"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q63932"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10171697"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q6A162"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2838246"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q6AI12"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-743815"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q7Z5J4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-359964"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8N5C8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-741724"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8NA61"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302345"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8ND90"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-745786"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8NF64"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-742887"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q8TAP6"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740322"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q93062"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-741671"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q969H4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-752007"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96AA8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740232"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96AF5"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-395708"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96C00"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2560879"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96M27"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-5460660"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96MH2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-724076"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q99750"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-6690555"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BR01"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-741350"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BT49"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-744719"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BWG4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2902395"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BWW4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10172511"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BYR5"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-740364"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9HC98"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-743598"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9NYB9"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-747204"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9UKT9"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-739485"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13526"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714158"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9Y3Q8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-287195"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q07817-1"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1053045"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O95996"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-366083"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04637"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77694"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "13"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10415"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-6377335"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P27958"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-356283"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P36873"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-357253"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P62136"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-286642"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P62826"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-347088"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P63104"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-447295"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q09472"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-707714"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q92843"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1564678"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13625"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77642"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96J02"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13867"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-718504"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-718504"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13867"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-718504"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q13867"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-741158"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13867"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-718504"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96HA8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10230612"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q13867"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-718504"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9BQG2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9986850"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "O35988"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-11147184"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07589"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2530274"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P07996"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-9985816"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P18828"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2566375"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P39060"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-11578890"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q15113"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-8869614"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P43407"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-641062"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P04626"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1379503"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10721"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-720706"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P21860"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-618309"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q08379"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-948001"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "5"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q15323"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-10171697"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92529"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79084"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q6A162"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-297353"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q92870"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79277"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P00533"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-296151"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P37173"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-74648"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P51693"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79306"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q06481"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394607"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q93074"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "6"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-394357"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9NPJ6"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-594644"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P10599"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-494743"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P25445"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-296087"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P31749"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-359815"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P31946"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-714559"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P32121"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-602462"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P46734"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-743313"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P49407"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-915984"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P63098"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-347088"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P63104"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-395421"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q16637"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2871881"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "2"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q5VWQ8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2687480"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "14"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q969S3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-348259"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96EZ8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-77321"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "7"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9UER7"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1254790"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99683"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-476263"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9WTR2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2107046"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q99714"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-79964"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q7L0Y3"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302641"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9HCB6"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-2431846"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-4"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-302661"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P05067-8"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1757866"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P00540"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-747278"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "P26367"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-1171918"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q14517"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-602382"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q16512"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-742371"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96FJ2"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-769261"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "3"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q96JC9"
+      }
+    }, {
+      "target_intact" : {
+        "type" : "literal",
+        "value" : "EBI-742038"
+      },
+      "source" : {
+        "type" : "literal",
+        "value" : "Q9NSC5"
+      },
+      "exp" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "literal",
+        "value" : "4"
+      },
+      "source_intact" : {
+        "type" : "literal",
+        "value" : "EBI-748420"
+      },
+      "target" : {
+        "type" : "literal",
+        "value" : "Q9P2A4"
+      }
+    } ]
+  }
+}

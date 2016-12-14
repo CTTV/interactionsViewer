@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="../build/ot.interactionsViewer.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="../build/ot.interactionsViewer.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <p>Hello world</p>
+    <div id="container"></div>
+    <script>
+      var iv = interactionsViewer()
+          .uniprotId('P15056')
+          .size(600)
+          .labelSize(60)
+          .on("load", function (d) {
+              console.log("data loaded! ", d);
+          })
+          .on("click", function (d) {
+              console.log("clicked on node...", d);
+          });
+      iv(document.getElementById("container"));
+    </script>
+  </body>
+</html>
