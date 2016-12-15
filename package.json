@@ -4,7 +4,7 @@
   "description": "Protein interaction viewer for Open Targets",
   "main": "index.js",
   "directories": {
-    "example": "examples",
+    "example": "examples"
   },
   "dependencies": {
     "babel": "^6.5.2",
