@@ -2,27 +2,165 @@
 
 <html>
   <head>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.0.5/es6-promise.min.js
+"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
     <script src="../build/ot.interactionsViewer.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="../build/ot.interactionsViewer.css" rel="stylesheet">
+
+    <!-- tnt tooltip -->
+    <link rel="stylesheet" href="http://tntvis.github.io/tnt.tooltip/build/tnt.tooltip.css" type="text/css"/>
+    <script src="http://tntvis.github.io/tnt.tooltip/build/tnt.tooltip.min.js"></script>
+
+    <style>
+      #tnt_tooltip_1 {
+        pointer-events: none;
+      }
+    </style>
+
 
   </head>
   <body>
     <p>Hello world</p>
     <div id="container"></div>
     <script>
-      var iv = interactionsViewer()
-          .uniprotId('P15056')
-          .size(600)
-          .labelSize(60)
-          .on("load", function (d) {
-              console.log("data loaded! ", d);
-          })
-          .on("click", function (d) {
-              console.log("clicked on node...", d);
+      let uniprotId = 'P60484';
+//      let uniprotId = 'P10275';
+      const urlR = `http://www.omnipathdb.org/interactions/${uniprotId}?format=json`;
+      d3.json(urlR, function (err, resp) {
+          let proteinSet = new Set();
+          for (let {source, target} of resp) {
+              proteinSet.add(source);
+              proteinSet.add(target);
+          }
+          proteinSet.delete(uniprotId);
+          const urlR2 = `http://www.omnipathdb.org/interactions/${Array.from(proteinSet).join(",")}?format=json&fields=sources`;
+          d3.json (urlR2, function (err, data) {
+              let filtered = {};
+              // First pass -- get all uniprot Ids associated with our protein
+              let interactors = new Set();
+              for (let link of data) {
+                  let {source, target, sources} = link;
+                  if (source === uniprotId) {
+                      interactors.add(target);
+                  }
+                  if (target === uniprotId) {
+                      interactors.add(source);
+                  }
+              }
+
+              for (let interactor of interactors) {
+                  filtered[interactor] = {
+                      label: interactor,
+                      interactsWith: {}
+                  }
+              }
+
+              for (let link of data) {
+                  let {source, target, sources:provenances} = link;
+                  if (interactors.has(source) && interactors.has(target)) {
+                      if ((source !== uniprotId) && (target !== uniprotId)) {
+                          if (!filtered[source].interactsWith[target]) {
+                              filtered[source].interactsWith[target] = {
+                                  "label": target,
+                                  "provenance": []
+                              };
+
+                              filtered[target].interactsWith[source] = {
+                                  "label": source,
+                                  provenance: []
+                              }
+                          }
+                          for (let provenance of provenances) {
+                              if (_.indexOf(filtered[source].interactsWith[target].provenance, provenance) === -1) {
+                                  filtered[source].interactsWith[target].provenance.push(provenance);
+                              }
+
+                              if (_.indexOf(filtered[target].interactsWith[source].provenance, provenance) === -1) {
+                                  filtered[target].interactsWith[source].provenance.push(provenance);
+                              }
+
+                          }
+//                          if ((!filtered[source].interactsWith[target]) || _.index((filtered[source].interactsWith[target].provenance !== provenance)) {
+//                              filtered[source].interactsWith[target] = {
+//                                  "target": target,
+//                                  "provenance": provenance
+//                              };
+//                              filtered[target].interactsWith.[source] = {
+//                                  "target": target,
+//                                  "provenance": provenance
+//                              }); // TODO: For now this gets duplicated.
+//                          }
+                      }
+                  }
+              }
+
+              // Return the array
+              let omnipathData = Object.keys(filtered).map((k) => filtered[k])
+              console.log(tooltip);
+
+              let hover_tooltip;
+
+              function mouseoverTooltip (d) {
+                  let obj = {};
+                  console.log(d);
+                  obj.header = "";
+                  obj.body = d.label + " (" + Object.keys(d.interactsWith).length + " interactors)";
+                  hover_tooltip = tooltip.plain()
+                      .width(180)
+                      .show_closer(false)
+                      .id(1)
+                      .call(this, obj);
+              }
+              let iv = interactionsViewer()
+                  .data(omnipathData)
+                  .size(600)
+                  .labelSize(60)
+                  .on("click", function (d) {
+                      console.log("clicked on node...", d);
+                  })
+                  .on("mouseout", function () {
+                      hover_tooltip.close();
+                  })
+                  .on("mouseover", mouseoverTooltip)
+                  .on("interaction", function (interactors) {
+                      console.log("interactors event...");
+                      console.log(interactors);
+                      // Take the interactions between both:
+                      let iNames = [];
+                      for (const iName of interactors.keys()) {
+                          iNames.push(iName);
+                      }
+                      let interactions;
+                      let iw = interactors.get(iNames[0]).interactsWith;
+                      let i2 = interactors.get(iNames[1]).label;
+                      Object.keys(iw).forEach(function (i) {
+                          if (iw[i].label === i2) {
+                              interactions = iw[i].provenance;
+                          }
+                      });
+
+                      const elem = this;
+                      let obj = {};
+                      obj.header = iNames.join(" - ") + " interactions";
+                      obj.rows = [];
+                      interactions.forEach(function (i) {
+                          obj.rows.push({
+                              "label": i,
+                              "value": ""
+                          });
+                      });
+                      tooltip.table()
+                          .width(180)
+                          .id(2)
+                          .call(elem, obj);
+                  });
+              iv(document.getElementById("container"));
           });
-      iv(document.getElementById("container"));
+      });
+
     </script>
   </body>
 </html>
