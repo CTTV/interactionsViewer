@@ -330,10 +330,6 @@ export default function () {
                 for (const iName of fixedNodes.keys()) {
                     iNames.push(iName);
                 }
-                let interactions = [];
-                console.log("interactors:");
-                console.log(fixedNodes.get(iNames[0]));
-                console.log(fixedNodes.get(iNames[1]));
 
                 let provenance = new Set();
                 addProvenance(fixedNodes.get(iNames[0]).interactsWith, fixedNodes.get(iNames[1]).label, provenance);

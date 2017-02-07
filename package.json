@@ -1,5 +1,5 @@
 {
-  "name": "ot.interactionsViewer",
+  "name": "ot.interactions_viewer",
   "version": "0.0.1",
   "description": "Protein interaction viewer for Open Targets",
   "main": "index.js",
