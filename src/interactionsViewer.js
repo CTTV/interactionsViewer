@@ -6,7 +6,7 @@ export default function () {
     let dispatch = d3.dispatch ("click", "dblclick", "mouseover", "mouseout", "select", "unselect", "interaction");
 
     let config = {
-        data: undefined,
+        data: [],
         size: 500,  // default graph size
         labelSize: 100,
         nodeArc: 12,
@@ -331,13 +331,13 @@ export default function () {
                     iNames.push(iName);
                 }
 
-                let provenance = new Set();
+                let provenance = new Map();
                 addProvenance(fixedNodes.get(iNames[0]).interactsWith, fixedNodes.get(iNames[1]).label, provenance);
                 addProvenance(fixedNodes.get(iNames[1]).interactsWith, fixedNodes.get(iNames[0]).label, provenance);
                 let interObj = {
                     interactor1: iNames[0],
                     interactor2: iNames[1],
-                    provenance: Array.from(provenance)
+                    provenance: Array.from(provenance.values())
                 };
 
                 // Fire the interaction event
@@ -351,7 +351,7 @@ export default function () {
                 if (iw[i].label === i2) {
                     // interactions = iw[i].provenance;
                     for (let p of iw[i].provenance) {
-                        provenance.add(p);
+                        provenance.set(p.id, p);
                     }
                 }
             });

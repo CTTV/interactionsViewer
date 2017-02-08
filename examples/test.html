@@ -2,8 +2,7 @@
 
 <html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.0.5/es6-promise.min.js
-"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.0.5/es6-promise.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
     <script src="../build/ot.interactionsViewer.js"></script>
@@ -105,7 +104,6 @@
 
               function mouseoverTooltip (d) {
                   let obj = {};
-                  console.log(d);
                   obj.header = "";
                   obj.body = d.label + " (" + Object.keys(d.interactsWith).length + " interactors)";
                   hover_tooltip = tooltip.plain()
@@ -114,6 +112,7 @@
                       .id(1)
                       .call(this, obj);
               }
+              console.log(omnipathData);
               let iv = interactionsViewer()
                   .data(omnipathData)
                   .size(600)
@@ -126,8 +125,6 @@
                   })
                   .on("mouseover", mouseoverTooltip)
                   .on("interaction", function (interactors) {
-                      console.log("interactors event...");
-                      console.log(interactors);
                       // Take the interactions between both:
                       let iNames = [];
                       for (const iName of interactors.keys()) {
