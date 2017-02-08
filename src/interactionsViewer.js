@@ -11,7 +11,7 @@ export default function () {
         labelSize: 100,
         nodeArc: 12,
         colorScale: d3.scale.linear()
-            .range([d3.rgb("#007AFF"), d3.rgb('#FFF500')]) // The domain is set dynamically
+            .range([d3.rgb("#FFF500"), d3.rgb('#007AFF')]) // The domain is set dynamically
     };
     let fixedNodes = new Map();
     let radius;
