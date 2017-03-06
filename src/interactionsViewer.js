@@ -200,13 +200,24 @@ export default function () {
 
             // For nodes, show only those that have links selected.
             labels
+                .style('visibility', "visible")
                 .transition()
                 .duration(500)
                 .attr("opacity", (data) => {
                     if (data.currentInteractors && Object.keys(data.currentInteractors).length) {
                         return 1;
                     }
-                    return 0.3;
+                    return 0;
+                })
+                .each ('end', function (d) {
+                    d3.select(this)
+                        .style('visibility', (data) => {
+                            if (data.currentInteractors && Object.keys(data.currentInteractors).length) {
+                                return "visible";
+                            }
+                            return "hidden";
+                        })
+
                 })
                 .each(function (d) {
                     // console.log("fixed nodes here...");
