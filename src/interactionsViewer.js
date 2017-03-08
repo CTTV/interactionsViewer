@@ -433,7 +433,9 @@ export default function () {
             function fixedNodesHasLinkWith(node) {
                 let interacts = false;
                 fixedNodes.forEach(function (val, key) {
-                    for (let [key, inter] of Object.entries(val.interactsWith)) {
+                    // for (let [key, inter] of Object.entries(val.interactsWith)) {
+                    for (let key of Object.keys(val.interactsWith)) {
+                        let inter = val.interactsWith[key];
                         if (inter.label === node.label) {
                             interacts = true;
                             break;
