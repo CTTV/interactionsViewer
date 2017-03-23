@@ -4,3 +4,13 @@
   }
   cursor: pointer;
 }
+
+.star-plot-toplevel-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  &.top {
+    z-index: 2;
+    pointer-events: none;
+  }
+}

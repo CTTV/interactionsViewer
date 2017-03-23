@@ -22,6 +22,16 @@ export default function () {
     let nodes = new Map(); // contains a map of the nodes
     let radius;
     let labels;
+    let ease = d3.ease('cubic-in-out');
+    let duration = 1000;
+    let timeScale = d3.scale.linear()
+        .domain([0, duration])
+        .range([0, 1]);
+    let prevTime = 0;
+
+    // Since we are using canvas for the links we need to do our own data binding
+    // This data structure holds the currently displayed links
+    let prevLinks = new Set();
 
     const render = function (div) {
         if (!div) {
@@ -47,12 +57,24 @@ export default function () {
         }
 
         // svg
-        const svg = d3.select(div)
+        const container = d3.select(div)
             .append("div")
-            .style("position", "relative")
+            .style("position", "relative");
+        const svg = container
             .append("svg")
+            .attr("class", "star-plot-toplevel-container")
             .attr("width", config.size)
             .attr("height", config.size);
+
+        const canvas = container
+            .append("canvas")
+            .attr("class", "star-plot-toplevel-container top")
+            .attr("width", config.size)
+            .attr("height", config.size)
+            .node();
+
+        const ctx = canvas.getContext('2d');
+        ctx.translate(radius+config.labelSize, radius+config.labelSize);
 
         const graph = svg
             .append("g")
@@ -61,12 +83,13 @@ export default function () {
         update();
 
         // Compute the links given the data we have, the source/provenance filters that have been applied and the clicked (selected) nodes
+        // The resultint links are stored in the currentInteractors sub-object
         function computeLinks() {
             let data = config.data;
             let filters = config.filters;
 
-            // A list of links between 2 nodes based on the data points and the filters on the sources
-            let links = [];
+            // An index of links between 2 nodes based on the data points and the filters on the sources
+            let links = new Map();
 
             for (let d of data) {
                 // Reset the current sets of interactors
@@ -117,68 +140,172 @@ export default function () {
                             d.currentInteractors[interName] = inter;
                             let linkedNode = nodes.get(interName);
                             linkedNode.currentInteractors[d.label] = d;
-                            links.push(possibleInteraction);
+                            // links.push(possibleInteraction);
+                            // links[`${d.source.label}-${d.target}`] = possibleInteraction;
+                            links.set(`${possibleInteraction.source.label}-${possibleInteraction.target}`, possibleInteraction);
                         }
                     }
                 }
-
             }
             return links;
         }
 
-        function updateLinks() {
-            let linksData = computeLinks();
 
-            let links = graph.selectAll('.openTargets_interactions_link')
-                .data(linksData, (d) => [d.source.label, d.target].join('-'));
+        function dataBind (currLinks) {
+            // Convert the map of current links in 2 sets of links:
+            // One holding the new links
+            // One holding the removed links
+
+            // Get the set of the current links
+            // TODO: Is there a [better | more idiomatic | more performant] way to get the two sets?
+            let currLinksSet = new Set([...currLinks.keys()]);
+
+            // Calculate the difference of the current links set and the prev links set
+            let newLinks     = new Set([...currLinksSet].filter(x => !prevLinks.has(x)));
+            let removedLinks = new Set([...prevLinks].filter(x => !currLinksSet.has(x)));
+
+            // The sets need to have the information, not just the key
+            let newLinksInfo = new Set();
+            for (let link of newLinks.values()) {
+                newLinksInfo.add(currLinks.get(link));
+            }
+
+            let removedLinksInfo = new Set();
+            for (let link of removedLinks.values()) {
+                removedLinksInfo.add(prevLinks.get(link));
+            }
+
+            return {
+                newLinks: newLinksInfo,
+                removedLinks: removedLinksInfo
+            };
+        }
+
+        function updateLinks() {
+            let currLinks = computeLinks();
+
+            // For data binding, we create an index of current links indexed by `${d.source.label}-${d.target}`
+            // db contains 2 set of links: new links and removed links
+            let {newLinks, removedLinks} = dataBind(currLinks);
+
+            console.log("new links...");
+            console.log(newLinks);
+
+            console.log("removed links...");
+            console.log(removedLinks);
+
+            // let links = graph.selectAll('.openTargets_interactions_link')
+            //     .datum(linksData, (d) => [d.source.label, d.target].join('-'));
 
             // Fancy transition, inspired from: http://bl.ocks.org/duopixel/4063326
-            links.exit()
-                .each(function (d) {
-                    let el = this;
-                    d.totalLength = el.getTotalLength();
-                })
-                .attr("stroke-dasharray", (d) => d.totalLength + " " + d.totalLength)
-                .attr("stroke-dashoffset", 0)
-                .transition()
-                .duration(500)
-                .ease("linear")
-                .attr("stroke-dashoffset", (d) => d.totalLength)
-                .remove();
+            // links.exit()
+            //     .each(function (d) {
+            //         let el = this;
+            //         d.totalLength = el.getTotalLength();
+            //     })
+            //     .attr("stroke-dasharray", (d) => d.totalLength + " " + d.totalLength)
+            //     .attr("stroke-dashoffset", 0)
+            //     .transition()
+            //     .duration(500)
+            //     .ease("linear")
+            //     .attr("stroke-dashoffset", (d) => d.totalLength)
+            //     .remove();
 
             // New links
-            links
-                .enter()
-                .append("path")
-                .attr("class", "openTargets_interactions_link")
-                .attr("stroke-dasharray", (d) => d.totalLength + " " + d.totalLength)
-                .attr("stroke-dashoffset", 0)
-                .attr("d", (d) => {
-                    let fromAngle = d.source.angle + 0.001;
-                    let toAngle = nodes.get(d.target).angle + 0.001;
-                    let fromX = (diameter - 7) / 2 * Math.cos(fromAngle);
-                    let fromY = (diameter - 7) / 2 * Math.sin(fromAngle);
-                    let toX = (diameter - 7) / 2 * Math.cos(toAngle);
-                    let toY = (diameter - 7) / 2 * Math.sin(toAngle);
-                    return `M${fromX},${fromY} Q0,0 ${toX},${toY}`;
-                })
-                .attr('fill', "none")
-                .attr("stroke", '#1e5799')
-                .attr("stroke-width", 1)
-                .each(function (d) {
-                    let el = this;
-                    d.totalLength = el.getTotalLength();
-                })
-                .attr('stroke-dasharray', (d) => d.totalLength + " " + d.totalLength)
-                .attr("stroke-dashoffset", (d) => d.totalLength)
-                .transition()
-                .duration(500)
-                .ease("linear")
-                .attr("stroke-dashoffset", 0);
+            // links
+            //     .enter()
+            //     .append("path")
+            //     .attr("class", "openTargets_interactions_link")
+            //     .attr("stroke-dasharray", (d) => d.totalLength + " " + d.totalLength)
+            //     .attr("stroke-dashoffset", 0)
+            //     .attr("d", (d) => {
+            //         let fromAngle = d.source.angle + 0.001;
+            //         let toAngle = nodes.get(d.target).angle + 0.001;
+            //         let fromX = (diameter - 7) / 2 * Math.cos(fromAngle);
+            //         let fromY = (diameter - 7) / 2 * Math.sin(fromAngle);
+            //         let toX = (diameter - 7) / 2 * Math.cos(toAngle);
+            //         let toY = (diameter - 7) / 2 * Math.sin(toAngle);
+            //         return `M${fromX},${fromY} Q0,0 ${toX},${toY}`;
+            //     })
+            //     .attr('fill', "none")
+            //     .attr("stroke", '#1e5799')
+            //     .attr("stroke-width", 1)
+            //     .each(function (d) {
+            //         let el = this;
+            //         d.totalLength = el.getTotalLength();
+            //     })
+            //     .attr('stroke-dasharray', (d) => d.totalLength + " " + d.totalLength)
+            //     .attr("stroke-dashoffset", (d) => d.totalLength)
+            //     .transition()
+            //     .duration(500)
+            //     .ease("linear")
+            //     .attr("stroke-dashoffset", 0);
+
+            // links.each(function (d) {
+            newLinks.forEach (function (d) {
+                console.log(d);
+
+                let fromAngle = d.source.angle + 0.001;
+                let toAngle = nodes.get(d.target).angle + 0.001;
+                d.fromX = (diameter - 7) / 2 * Math.cos(fromAngle);
+                d.fromY = (diameter - 7) / 2 * Math.sin(fromAngle);
+                d.toX = (diameter - 7) / 2 * Math.cos(toAngle);
+                d.toY = (diameter - 7) / 2 * Math.sin(toAngle);
+
+            });
+
+            // Attempt to get a transition on the curves
+            d3.timer(stepDrawLine);
+
+            function stepDrawLine(t) {
+                const time = ease(timeScale(t));
+
+                // links.each(function (d) {
+                newLinks.forEach (function (d) {
+                    drawPartialLine (d, prevTime, time);
+                });
+                prevTime = time;
+
+                // This finishes the animation
+                if (t >= duration) {
+                    return true;
+                }
+            }
+
+            function drawPartialLine(d, t0, t1) {
+                // ctx.save();
+                // ctx.setTransform(1, 0, 0, 1, 0, 0);
+                // ctx.clearRect(0, 0, config.size, config.size); // Probably not needed
+                // ctx.restore();
+
+                let fromX = d.fromX;
+                let fromY = d.fromY;
+                let toX = d.toX;
+                let toY = d.toY;
+
+                // console.log(`from t0=${t0} to t1=${t1}  => fromX: ${fromX} - fromY: ${fromY}`);
+
+                // For a given t value between 0 and 1
+                // x = (1 - t) * (1 - t) * p[0].x + 2 * (1 - t) * t * p[1].x + t * t * p[2].x;
+                // y = (1 - t) * (1 - t) * p[0].y + 2 * (1 - t) * t * p[1].y + t * t * p[2].y;
+                const x0 = (1 - t0) * (1 - t0) * fromX + 2 * (1 - t0) * t0 * 0 + t0 * t0 * toX;
+                const y0 = (1 - t0) * (1 - t0) * fromY + 2 * (1 - t0) * t0 * 0 + t0 * t0 * toY;
+                const x1 = (1 - t1) * (1 - t1) * fromX + 2 * (1 - t1) * t1 * 0 + t1 * t1 * toX;
+                const y1 = (1 - t1) * (1 - t1) * fromY + 2 * (1 - t1) * t1 * 0 + t1 * t1 * toY;
+                // const x = toX;
+                // const y = toY;
+                ctx.beginPath();
+                ctx.moveTo(x0, y0);
+                // ctx.quadraticCurveTo(0, 0, x1, y1);
+                ctx.lineTo(x1, y1);
+                ctx.strokeStyle = '#1e5799';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
 
 
             // Labels --
-
+            //
             // Remove the background for prev selected labels:
             d3.selectAll('.openTargets_background_removeMe').remove();
 

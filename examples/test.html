@@ -25,8 +25,9 @@
     <p>Hello world</p>
     <div id="container"></div>
     <script>
-      let uniprotId = 'P60484';
+//      let uniprotId = 'P60484';
 //      let uniprotId = 'P10275';
+      let uniprotId = 'O60673';
       const urlR = `http://www.omnipathdb.org/interactions/${uniprotId}?format=json`;
       d3.json(urlR, function (err, resp) {
           let proteinSet = new Set();
@@ -98,7 +99,6 @@
 
               // Return the array
               let omnipathData = Object.keys(filtered).map((k) => filtered[k])
-              console.log(tooltip);
 
               let hover_tooltip;
 
@@ -112,7 +112,7 @@
                       .id(1)
                       .call(this, obj);
               }
-              console.log(omnipathData);
+//              console.log(omnipathData);
               let iv = interactionsViewer()
                   .data(omnipathData)
                   .size(600)
