@@ -166,7 +166,12 @@ export default function () {
             updateLinks();
 
             // Simulates a click in a node
-            render.click = function (node) {
+            // fireEvent tells the function if the select/unselect action (in the fix function) should fire a "select"/"unselect" event back
+            render.click = function (node, fireEvent) {
+
+                if (fireEvent !== false) {
+                    fireEvent = true;
+                }
 
                 // Find the element for the node
                 let elem;
@@ -178,7 +183,7 @@ export default function () {
                     });
 
                 if (elem) {
-                    fix.call (elem, node, true);
+                    fix.call (elem, node, fireEvent);
                     // config.clickNode = {
                     //     element: elem,
                     //     node: node
