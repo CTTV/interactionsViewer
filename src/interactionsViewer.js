@@ -34,6 +34,8 @@ export default function () {
     let prevLinks = new Set();
 
     const render = function (div) {
+        console.log("original data...");
+        console.log(config.data);
         if (!div) {
             console.error('No container DOM element provided');
             return;
@@ -159,10 +161,11 @@ export default function () {
             // Get the set of the current links
             // TODO: Is there a [better | more idiomatic | more performant] way to get the two sets?
             let currLinksSet = new Set([...currLinks.keys()]);
+            let prevLinksSet = new Set([...prevLinks.keys()]);
 
             // Calculate the difference of the current links set and the prev links set
             let newLinks     = new Set([...currLinksSet].filter(x => !prevLinks.has(x)));
-            let removedLinks = new Set([...prevLinks].filter(x => !currLinksSet.has(x)));
+            let removedLinks = new Set([...prevLinksSet].filter(x => !currLinksSet.has(x)));
 
             // The sets need to have the information, not just the key
             let newLinksInfo = new Set();
@@ -175,9 +178,12 @@ export default function () {
                 removedLinksInfo.add(prevLinks.get(link));
             }
 
+            prevLinks = currLinks;
+
             return {
                 newLinks: newLinksInfo,
-                removedLinks: removedLinksInfo
+                removedLinks: removedLinksInfo,
+                // stayLinks: stayLinksInfo
             };
         }
 
@@ -241,10 +247,10 @@ export default function () {
             //     .ease("linear")
             //     .attr("stroke-dashoffset", 0);
 
+
+            // New links
             // links.each(function (d) {
             newLinks.forEach (function (d) {
-                console.log(d);
-
                 let fromAngle = d.source.angle + 0.001;
                 let toAngle = nodes.get(d.target).angle + 0.001;
                 d.fromX = (diameter - 7) / 2 * Math.cos(fromAngle);
@@ -254,36 +260,46 @@ export default function () {
 
             });
 
+            // clear the previous links
+            ctx.save();
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+            ctx.clearRect(0, 0, config.size, config.size);
+            ctx.restore();
+
+
             // Attempt to get a transition on the curves
+            prevTime = 0;
             d3.timer(stepDrawLine);
+
 
             function stepDrawLine(t) {
                 const time = ease(timeScale(t));
-
-                // links.each(function (d) {
-                newLinks.forEach (function (d) {
-                    drawPartialLine (d, prevTime, time);
-                });
-                prevTime = time;
+                // console.log(`passed time ${t} -- scaled time ${time}`);
 
                 // This finishes the animation
                 if (t >= duration) {
                     return true;
                 }
+
+                // New links
+                newLinks.forEach (function (d) {
+                    drawPartialLine (d, prevTime, time);
+                });
+
+                // Removed links
+                removedLinks.forEach (function (d) {
+                    drawPartialLine (d, (1-prevTime), (1-time));
+                });
+
+
+                prevTime = time;
             }
 
             function drawPartialLine(d, t0, t1) {
-                // ctx.save();
-                // ctx.setTransform(1, 0, 0, 1, 0, 0);
-                // ctx.clearRect(0, 0, config.size, config.size); // Probably not needed
-                // ctx.restore();
-
                 let fromX = d.fromX;
                 let fromY = d.fromY;
                 let toX = d.toX;
                 let toY = d.toY;
-
-                // console.log(`from t0=${t0} to t1=${t1}  => fromX: ${fromX} - fromY: ${fromY}`);
 
                 // For a given t value between 0 and 1
                 // x = (1 - t) * (1 - t) * p[0].x + 2 * (1 - t) * t * p[1].x + t * t * p[2].x;
@@ -292,6 +308,9 @@ export default function () {
                 const y0 = (1 - t0) * (1 - t0) * fromY + 2 * (1 - t0) * t0 * 0 + t0 * t0 * toY;
                 const x1 = (1 - t1) * (1 - t1) * fromX + 2 * (1 - t1) * t1 * 0 + t1 * t1 * toX;
                 const y1 = (1 - t1) * (1 - t1) * fromY + 2 * (1 - t1) * t1 * 0 + t1 * t1 * toY;
+
+                // console.log(`${d.source.label}-${d.target}: distance between points: ${Math.sqrt((x1 - x0) * (x1 - x0) + (y1 - y0) * (y1 - y0))} t(${t0}=>${t1})`);
+
                 // const x = toX;
                 // const y = toY;
                 ctx.beginPath();
