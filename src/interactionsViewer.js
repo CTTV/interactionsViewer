@@ -14,7 +14,7 @@ export default function () {
         size: 500,  // default graph size
         labelSize: 100,
         nodeArc: 12,
-        colorScale: d3.scale.linear()
+        colorScale: d3.scaleLinear()
             .range([d3.rgb("#FFF500"), d3.rgb('#007AFF')]) // The domain is set dynamically
     };
 
@@ -383,7 +383,7 @@ export default function () {
             .attr("stroke-dashoffset", 0)
             .transition()
             .duration(500)
-            .ease("linear")
+            .ease(d3.easeLinear)
             .attr("stroke-dashoffset", (d) => d.totalLength)
             .remove();
 
@@ -414,7 +414,7 @@ export default function () {
             .attr("stroke-dashoffset", (d) => d.totalLength)
             .transition()
             .duration(500)
-            .ease("linear")
+            .ease(d3.easeLinear)
             .attr("stroke-dashoffset", 0);
 
 
@@ -694,5 +694,10 @@ export default function () {
         return ~~(nodeArc * n / (2 * Math.PI));
     }
 
-    return d3.rebind(render, dispatch, "on");
+    render.on = function () {
+        let value = dispatch.on.apply(dispatch, arguments);
+        return value === dispatch ? render : value;
+    };
+    return render;
+    // return d3.rebind(render, dispatch, "on");
 }
