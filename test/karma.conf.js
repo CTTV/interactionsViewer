@@ -1,43 +1,44 @@
 module.exports = function (config) {
-    'use strict';
-    config.set({
+  'use strict';
+  config.set({
 
-        basePath: '',
+    basePath: '',
 
-        frameworks: ['browserify', 'mocha', 'chai', 'es6-shim'],
+    frameworks: ['browserify', 'mocha', 'chai'],
 
-        files: [
-            'https://d3js.org/d3.v3.min.js',
-            //'../build/ot.interactionsViewer.js',
-            // 'index.js',
-            '*.spec.js'
-        ],
+    files: [
+      // '../node_modules/core-js/shim.js',
+      'https://d3js.org/d3.v3.min.js',
+      //'../build/ot.interactionsViewer.js',
+      // 'index.js',
+      '*.spec.js',
+    ],
 
-        reporters: ['mocha'],
+    reporters: ['mocha'],
 
-        preprocessors: {
-            '*.spec.js': ['browserify']
-        },
+    preprocessors: {
+      '*.spec.js': ['browserify']
+    },
 
-        browserify: {
-            debug: true,
-            bundleDelay: 1000,
-            transform: [['babelify', {
-                ignore: /node_modules/
-            }]],
-            extensions: ['.js']
-        },
+    browserify: {
+      debug: true,
+      bundleDelay: 1000,
+      transform: [['babelify', {
+        ignore: /node_modules/
+      }]],
+      extensions: ['.js']
+    },
 
-        port: 9876,
-        colors: true,
-        autoWatch: false,
-        singleRun: true,
+    port: 9876,
+    colors: true,
+    autoWatch: false,
+    singleRun: true,
 
-        // level of logging
-        // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-        logLevel: config.LOG_INFO,
+    // level of logging
+    // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+    logLevel: config.LOG_INFO,
 
-        browsers: ['PhantomJS']
+    browsers: ['PhantomJS']
 
-    });
+  });
 };
