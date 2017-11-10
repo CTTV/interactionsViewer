@@ -34,8 +34,8 @@ export default function () {
     let prevLinks = new Set();
 
     const render = function (div) {
-        console.log("original data...");
-        console.log(config.data);
+        // console.log("original data...");
+        // console.log(config.data);
         if (!div) {
             console.error('No container DOM element provided');
             return;
@@ -166,6 +166,7 @@ export default function () {
             // Calculate the difference of the current links set and the prev links set
             let newLinks     = new Set([...currLinksSet].filter(x => !prevLinks.has(x)));
             let removedLinks = new Set([...prevLinksSet].filter(x => !currLinksSet.has(x)));
+            let stayLinks = new Set([...prevLinksSet].filter(x => currLinksSet.has(x)));
 
             // The sets need to have the information, not just the key
             let newLinksInfo = new Set();
@@ -178,12 +179,17 @@ export default function () {
                 removedLinksInfo.add(prevLinks.get(link));
             }
 
+            let stayLinksInfo = new Set();
+            for (let link of stayLinks.values()) {
+                stayLinksInfo.add(prevLinks.get(link));
+            }
+
             prevLinks = currLinks;
 
             return {
                 newLinks: newLinksInfo,
                 removedLinks: removedLinksInfo,
-                // stayLinks: stayLinksInfo
+                stayLinks: stayLinksInfo
             };
         }
 
@@ -192,13 +198,13 @@ export default function () {
 
             // For data binding, we create an index of current links indexed by `${d.source.label}-${d.target}`
             // db contains 2 set of links: new links and removed links
-            let {newLinks, removedLinks} = dataBind(currLinks);
+            let {newLinks, removedLinks, stayLinks} = dataBind(currLinks);
 
-            console.log("new links...");
-            console.log(newLinks);
+            // console.log("new links...");
+            // console.log(newLinks);
 
-            console.log("removed links...");
-            console.log(removedLinks);
+            // console.log("removed links...");
+            // console.log(removedLinks);
 
             // let links = graph.selectAll('.openTargets_interactions_link')
             //     .datum(linksData, (d) => [d.source.label, d.target].join('-'));
@@ -247,9 +253,7 @@ export default function () {
             //     .ease("linear")
             //     .attr("stroke-dashoffset", 0);
 
-
             // New links
-            // links.each(function (d) {
             newLinks.forEach (function (d) {
                 let fromAngle = d.source.angle + 0.001;
                 let toAngle = nodes.get(d.target).angle + 0.001;
@@ -257,7 +261,15 @@ export default function () {
                 d.fromY = (diameter - 7) / 2 * Math.sin(fromAngle);
                 d.toX = (diameter - 7) / 2 * Math.cos(toAngle);
                 d.toY = (diameter - 7) / 2 * Math.sin(toAngle);
+            });
 
+            stayLinks.forEach (function (d) {
+                let fromAngle = d.source.angle + 0.001;
+                let toAngle = nodes.get(d.target).angle + 0.001;
+                d.fromX = (diameter - 7) / 2 * Math.cos(fromAngle);
+                d.fromY = (diameter - 7) / 2 * Math.sin(fromAngle);
+                d.toX = (diameter - 7) / 2 * Math.cos(toAngle);
+                d.toY = (diameter - 7) / 2 * Math.sin(toAngle);
             });
 
             // clear the previous links
@@ -281,6 +293,9 @@ export default function () {
                     return true;
                 }
 
+                // Clear the previous frame
+                ctx.clearRect(-config.size / 2, -config.size / 2, config.size, config.size);
+
                 // New links
                 newLinks.forEach (function (d) {
                     drawPartialLine (d, prevTime, time);
@@ -291,37 +306,66 @@ export default function () {
                     drawPartialLine (d, (1-prevTime), (1-time));
                 });
 
+                // Staying links
+                stayLinks.forEach(function(d) {
+                    drawLine(d);
+                });
 
                 prevTime = time;
             }
 
-            function drawPartialLine(d, t0, t1) {
-                let fromX = d.fromX;
-                let fromY = d.fromY;
-                let toX = d.toX;
-                let toY = d.toY;
+            function lerp(p, q, t) {
+                // linearly interpolate from p to q by amount t
+                // where t in [0, 1]
+                return {
+                    x: p.x + (q.x - p.x) * t,
+                    y: p.y + (q.y - p.y) * t
+                };
+            }
 
-                // For a given t value between 0 and 1
-                // x = (1 - t) * (1 - t) * p[0].x + 2 * (1 - t) * t * p[1].x + t * t * p[2].x;
-                // y = (1 - t) * (1 - t) * p[0].y + 2 * (1 - t) * t * p[1].y + t * t * p[2].y;
-                const x0 = (1 - t0) * (1 - t0) * fromX + 2 * (1 - t0) * t0 * 0 + t0 * t0 * toX;
-                const y0 = (1 - t0) * (1 - t0) * fromY + 2 * (1 - t0) * t0 * 0 + t0 * t0 * toY;
-                const x1 = (1 - t1) * (1 - t1) * fromX + 2 * (1 - t1) * t1 * 0 + t1 * t1 * toX;
-                const y1 = (1 - t1) * (1 - t1) * fromY + 2 * (1 - t1) * t1 * 0 + t1 * t1 * toY;
-
-                // console.log(`${d.source.label}-${d.target}: distance between points: ${Math.sqrt((x1 - x0) * (x1 - x0) + (y1 - y0) * (y1 - y0))} t(${t0}=>${t1})`);
-
-                // const x = toX;
-                // const y = toY;
+            function drawLine(d) {
+                // Draw a quadratic bezier without animation
+                // (for lines that have not changed)
                 ctx.beginPath();
-                ctx.moveTo(x0, y0);
-                // ctx.quadraticCurveTo(0, 0, x1, y1);
-                ctx.lineTo(x1, y1);
+                ctx.moveTo(d.fromX, d.fromY);
+                ctx.quadraticCurveTo(0, 0, d.toX, d.toY);
                 ctx.strokeStyle = '#1e5799';
                 ctx.lineWidth = 1;
                 ctx.stroke();
             }
 
+            function drawPartialLine(d, t0, t) {
+                // Draw a quadratic bezier with animation using de Casteljau method
+                // (for lines that have not changed)
+
+                // Full quadratic bezier we are interpolating from has:
+                // start p0
+                // end p2
+                // control point p1
+                const p0 = { x: d.fromX, y: d.fromY };
+                const p2 = { x: d.toX, y: d.toY };
+                const p1 = { x: 0, y: 0 };
+
+                // Linearly interpolate from p0 to p1 by amount t: this is q0
+                const q0 = lerp(p0, p1, t);
+
+                // Linearly interpolate from p1 to p2 by amount t: this is q1
+                const q1 = lerp(p1, p2, t);
+
+                // Linearly interpolate from q0 to q1 by amount t: this is r0 (on the curve)
+                const r0 = lerp(q0, q1, t);
+
+                // Required quadratic bezier has:
+                // start p0
+                // end r0
+                // control point q0
+                ctx.beginPath();
+                ctx.moveTo(p0.x, p0.y);
+                ctx.quadraticCurveTo(q0.x, q0.y, r0.x, r0.y);
+                ctx.strokeStyle = '#1e5799';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
 
             // Labels --
             //
