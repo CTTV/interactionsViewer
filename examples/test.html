@@ -25,8 +25,6 @@
     <p>Hello world</p>
     <div id="container"></div>
     <script>
-//      let uniprotId = 'P60484';
-//      let uniprotId = 'P10275';
       let uniprotId = 'O60673';
       const urlR = `http://www.omnipathdb.org/interactions/${uniprotId}?format=json`;
       d3.json(urlR, function (err, resp) {
@@ -83,16 +81,6 @@
                               }
 
                           }
-//                          if ((!filtered[source].interactsWith[target]) || _.index((filtered[source].interactsWith[target].provenance !== provenance)) {
-//                              filtered[source].interactsWith[target] = {
-//                                  "target": target,
-//                                  "provenance": provenance
-//                              };
-//                              filtered[target].interactsWith.[source] = {
-//                                  "target": target,
-//                                  "provenance": provenance
-//                              }); // TODO: For now this gets duplicated.
-//                          }
                       }
                   }
               }
@@ -112,48 +100,18 @@
                       .id(1)
                       .call(this, obj);
               }
-//              console.log(omnipathData);
               let iv = interactionsViewer()
                   .data(omnipathData)
                   .size(600)
                   .labelSize(60)
-                  .on("click", function (d) {
-                      console.log("clicked on node...", d);
+                  .on("loaded", function() {
+                      let selectedNode = omnipathData[0];
+                      iv.click(selectedNode);
                   })
                   .on("mouseout", function () {
                       hover_tooltip.close();
                   })
                   .on("mouseover", mouseoverTooltip)
-                  .on("interaction", function (interactors) {
-                      // Take the interactions between both:
-                      let iNames = [];
-                      for (const iName of interactors.keys()) {
-                          iNames.push(iName);
-                      }
-                      let interactions;
-                      let iw = interactors.get(iNames[0]).interactsWith;
-                      let i2 = interactors.get(iNames[1]).label;
-                      Object.keys(iw).forEach(function (i) {
-                          if (iw[i].label === i2) {
-                              interactions = iw[i].provenance;
-                          }
-                      });
-
-                      const elem = this;
-                      let obj = {};
-                      obj.header = iNames.join(" - ") + " interactions";
-                      obj.rows = [];
-                      interactions.forEach(function (i) {
-                          obj.rows.push({
-                              "label": i,
-                              "value": ""
-                          });
-                      });
-                      tooltip.table()
-                          .width(180)
-                          .id(2)
-                          .call(elem, obj);
-                  });
               iv(document.getElementById("container"));
           });
       });
